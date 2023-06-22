@@ -1,9 +1,9 @@
 services:
   front-end:
-    image: "phanchithien/chatserver-fe:1.0.0"
+    image: "phanchithien456/chatserver-fe:1.0.0"
     ports:
       - "8080:8080"
   back-end:
-    image: "phanchithien/chatserver-be:1.0.0"
+    image: "phanchithien456/chatserver-be:1.0.0"
     ports:
       - "12345:12345"
