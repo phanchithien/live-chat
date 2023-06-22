@@ -1,0 +1,9 @@
+services:
+  front-end:
+    image: "thien/chatserver-fe:1.0.0"
+    ports:
+      - "8080:8080"
+  back-end:
+    image: "thien/chatserver-fe:1.0.0"
+    ports:
+      - "12345:12345"
