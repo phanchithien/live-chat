@@ -2,7 +2,7 @@ services:
   front-end:
     image: "frontend"
     ports:
-      - "8080:8080"
+      - "80:8080"
   back-end:
     image: "phanchithien456/chatserver-be:3.0.0"
     ports:
