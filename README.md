@@ -4,7 +4,7 @@ Change "locahost" to server's IP in Frontend/src/app/socket.service.ts
 chmod +x start.sh
 ```
 ```sh
-docker-compose up -d
+./start.sh
 ```
 # Personal log
 22/6/23 - Stuck in production : socket automatically closed while work well on local linux machine
