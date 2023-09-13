@@ -1,5 +1,6 @@
 # Run on server
 Change "locahost" to server's IP in Frontend/src/app/socket.service.ts
+In the root directory
 ```sh
 chmod +x start.sh
 ```
